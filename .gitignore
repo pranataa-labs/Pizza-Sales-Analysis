@@ -1,0 +1,21 @@
+# SQLite database and large CSV exports
+*.db
+*.csv
+
+# Python environment and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.venv/
+env/
+venv/
+
+# Local generator scripts and document drafts
+*.docx
+check_helpers.py
+build_*.py
+generate_*.py
+sync_docx.py
+01_import_to_sqlite.py
+business_sales_analysis_report.md
